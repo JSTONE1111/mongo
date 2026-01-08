@@ -161,7 +161,7 @@ numpy = { version = "2.2.6", markers = "platform_machine != 's390x' and platform
 # version 3+ fails with "ImportError: cannot import name 'url_quote' from 'werkzeug.urls'"
 Werkzeug = "<=2.3.7"
 PyGithub = "^1.58"
-urllib3 = "^2.2.2"
+urllib3 = "^2.6.3"
 distro = "^1.9.0"
 dnspython = "^2.6.1"
 proxy-protocol = "^0.11.3"
