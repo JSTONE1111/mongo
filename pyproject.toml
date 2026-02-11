@@ -61,15 +61,15 @@ tabulate = "^0.9.0"
 cheetah3 = "<=3.2.6.post1" # src/mongo/base/generate_error_codes.py
 packaging = "^24.0"
 regex = "^2024.11.6"
-setuptools = "^58.1.0"
-wheel = "0.45.0"
+setuptools = "^78.1.1"
+wheel = "0.46.2"
 
 [tool.poetry.group.core.dependencies]
 psutil = "^6.0.0"
 pymongo = "4.12.0"
 PyYAML = "^6.0.2"
 types-PyYAML = "^6.0.12.20240808"
-requests = "^2.32.3"
+requests = "^2.32.4"
 typing-extensions = "^4.12.2"
 typer = "^0.12.3"
 tenacity = "^9.0.0"
@@ -98,7 +98,7 @@ passlib = "^1.7.4"
 pyOpenSSL = "^25.0.0"
 pyparsing = "^2.4.7"
 service_identity = "^18.1.0"
-twisted = "^24.3.0"
+twisted = "^24.7.0rc1"
 'zope.interface' = "^5.5.2"
 ldaptor = "19.0.0"
 
@@ -138,7 +138,7 @@ cffi = "^2.0.0"
 [tool.poetry.group.platform.dependencies]
 pypiwin32 = { version = ">=223", markers = "sys_platform == 'win32'" }
 pywin32 = { version = ">=225", markers = "sys_platform == 'win32'" }
-cryptography = "^44.0.2"
+cryptography = "^46.0.5"
 
 [tool.poetry.group.testing.dependencies]
 curatorbin = "^1.2.4"
@@ -151,19 +151,19 @@ shrub-py = "^3.1.4"
 ocspresponder = "^0.5.0"
 flask = "^2.3.3"
 ocspbuilder = "^0.10.2"
-ecdsa = "^0.19.0"
+ecdsa = "^0.19.1"
 asn1crypto = "^1.5.1"
 toml = ">=0.10.2,<0.11.0"
-filelock = "^3.18.0"
+filelock = "^3.20.3"
 numpy = { version = "2.2.6", markers = "platform_machine != 's390x' and platform_machine != 'ppc64le'" }
 
 # Werkzeug is needed for ocsp tests in ocsp_mock.py
 # version 3+ fails with "ImportError: cannot import name 'url_quote' from 'werkzeug.urls'"
-Werkzeug = "<=2.3.7"
+Werkzeug = "<=3.1.5"
 PyGithub = "^1.58"
-urllib3 = "^2.2.2"
+urllib3 = "^2.6.3"
 distro = "^1.9.0"
-dnspython = "^2.6.1"
+dnspython = "^2.8.0"
 proxy-protocol = "^0.11.3"
 pkce = "^1.0.3"
 oauthlib = "^3.1.1"
